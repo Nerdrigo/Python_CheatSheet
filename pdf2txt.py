@@ -2,17 +2,17 @@ import os
 import sys
 
 def pdf2txt(path):
-	'''
-	This functions takes multiple PDFs as input and it will output plain 
-	text files with the text contained within the PDFs. One only needs to
-	provide the directory where the PDFs are located
+    '''
+    This functions takes multiple PDFs as input and it will output plain 
+    text files with the text contained within the PDFs. One only needs to
+    provide the directory where the PDFs are located
 
-	This is very useful when PDFs are scanned copies, and one needs to be
-	able to copy and edit the text.
+    This is very useful when PDFs are scanned copies, and one needs to be
+    able to copy and edit the text.
 
-	Computer needs Tesseract-OCR and Imagemagick installed
-	This will (probably) not work in windows
-	'''
+    Computer needs Tesseract-OCR and Imagemagick installed
+    This will (probably) not work in windows
+    '''
 
     #Looping over every file inside the given path
     for root, dirs, files in os.walk(path):
