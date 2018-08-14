@@ -1,4 +1,4 @@
-#Python Cheat Sheet
+# Python Cheat Sheet
 
 This repo is a collection of files with helpful information for different tasks. Most of the functions in the files don't have a specific purpose, they have useful information to start coding without having to search for function names because I don't remember them.
 
