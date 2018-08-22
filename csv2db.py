@@ -6,12 +6,17 @@ from bottle import Bottle, request, abort, response
 
 '''
 This is an API implemented in Bottle it takes a file saves it and loads it into an existing DB.
+
+To send file to API use the following curl command:
+
+curl -F "datafile=@[FILEPATH]" -X POST "http://[IP-ADDRESS]:[PORT]/api/books?pw=[PASSWORD]"
+
 '''
 
 #Defining API
 apiTest = Bottle()
 
-@apiTest.route('/api/alertas', method=['POST'])
+@apiTest.route('/api/books', method=['POST'])
 def read_csv():
 
     #datafile is the file being sent
