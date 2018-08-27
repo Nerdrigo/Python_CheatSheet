@@ -18,7 +18,7 @@ def get_info():
     query = "SELECT * from [TABLE NAME];"
     
     #Connecting with DB, function def in SQLhelpers.py
-    con = create_connection()
+    con = get_db_data()
     
     #Carrying out the query
     try:
