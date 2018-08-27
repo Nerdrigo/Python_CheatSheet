@@ -10,3 +10,5 @@ The files accomplish the following
 * `regex.py` helps with text pre-processing to start working with regular expressions
 * `xl_filler.py` helps fill excel sheets
 * `xl_reader.py` helps extract information from excel sheets
+* `csv2db.py` takes a csv file and loads it as a table in an RDBMS (PostgreSQL for example)
+* `db2JSON.py` makes an SQL query, process the info and returns a JSON with data
