@@ -5,6 +5,11 @@ from bottle import Bottle, request, abort, response
 
 '''
 Code snippet to take an SQL query result, and returning a JSON with that information.
+
+To view the json sopy and pase http://[IP-ADDRESS]:[PORT]/[ROUTE] in browser or
+type the follwing command: 
+curl -X GET "http://[IP-ADDRESS]:[PORT]/[ROUTE]"
+
 '''
 
 #Declaring API
